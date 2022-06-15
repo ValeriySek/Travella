@@ -5,6 +5,6 @@ import retrofit2.http.GET
 
 interface MainService {
 
-    @GET("places/")
+    @GET("places")
     suspend fun getData(): Response<Test>
 }
